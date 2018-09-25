@@ -20,7 +20,7 @@ int main(){
   cin >> SIZE;
 
   Student *stuList = new Student[SIZE];
-  Student student;
+  
 
   for(int i = 0; i < SIZE; i++){
     cout << "For student " << i+1 << ": " << endl;
